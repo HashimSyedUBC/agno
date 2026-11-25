@@ -75,6 +75,7 @@ _PROVIDERS: Dict[str, Tuple[str, str, str, str]] = {
     "sambanova": ("agno.models.sambanova", "Sambanova", "Sambanova", "sambanova"),
     "sarvam": ("agno.models.sarvam", "Sarvam", "Sarvam", "sarvam"),
     "siliconflow": ("agno.models.siliconflow", "Siliconflow", "Siliconflow", "siliconflow"),
+    "straitly": ("agno.models.straitly", "Straitly", "Straitly", "straitly"),
     "synthorai": ("agno.models.synthorai", "Synthorai", "Synthorai", "synthorai"),
     "together": ("agno.models.together", "Together", "Together", "together"),
     "tokenlab": ("agno.models.tokenlab", "TokenLab", "TokenLab", "tokenlab"),

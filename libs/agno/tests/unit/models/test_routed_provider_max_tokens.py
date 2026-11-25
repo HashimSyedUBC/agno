@@ -12,8 +12,9 @@ from agno.models.openai.like import OpenAILike
 from agno.models.openrouter import OpenRouter
 from agno.models.perplexity import Perplexity
 from agno.models.requesty import Requesty
+from agno.models.straitly import Straitly
 
-ROUTED_PROVIDER_TYPES: tuple[Type[OpenAILike], ...] = (OpenRouter, Perplexity, Requesty)
+ROUTED_PROVIDER_TYPES: tuple[Type[OpenAILike], ...] = (OpenRouter, Perplexity, Requesty, Straitly)
 
 
 @pytest.mark.parametrize("model_type", ROUTED_PROVIDER_TYPES)
